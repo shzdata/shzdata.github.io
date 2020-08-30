@@ -1,0 +1,33 @@
+<!doctype html>
+  <html lang="en-US">
+    <head>
+      <title>Error 404 - Shuzhou Data Center</title>
+     
+      <style>
+        .ftp{
+          font-family: "Consolas";
+        }
+      </style>
+    </head>
+    <body>
+      <pre>
+        <h1>Error 404.0 - The resource you requested is either renamed, deleted, or you can't access it because of no permission.</h1>
+        The URL you requested is: <span id="demo"></span> 
+        <script>
+          document.getElementById("demo").innerHTML = window.location.href;
+        </script>
+      </pre>
+        <fieldset>
+            <legend>Give Feedback:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Eg. James"/><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Eg. Peterson"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Eg. opensource@google.com"/><br><br>
+            <label for="email">Why do you need this resource?</label><br>
+            <input type="text" length=200 maxlength=200 placeholder="Please enter reason..."/><br><br>
+            <label for="birthday">Due Date:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit" value="Submit">
+         </fieldset>
